@@ -1,5 +1,9 @@
 const add = function() {
-	
+	let a = arguments[0];
+  let b = arguments[1];
+
+  let sum = a + b;
+  return sum;
 };
 
 const subtract = function() {
