@@ -2,20 +2,31 @@ const add = function() {
 	let a = arguments[0];
   let b = arguments[1];
 
-  let sum = a + b;
-  return sum;
+  return (a + b);
 };
 
 const subtract = function() {
-	
+	let a = arguments[0];
+  let b = arguments[1];
+
+  return (a - b);
 };
 
 const sum = function() {
-	
+	let sum = 0;
+
+  for (let i = 0; i < arguments.length; i++) {
+    sum += arguments[i];
+  }
+
+  return sum;
 };
 
 const multiply = function() {
+  let a = arguments[0];
+  let b = arguments[1];
 
+  return(a * b);
 };
 
 const power = function() {
