@@ -30,7 +30,16 @@ const multiply = function() {
 };
 
 const power = function() {
-	
+	let a = arguments[0];
+  let b = arguments[1];
+
+  let pow = a;
+
+  for (let i = 0; i < b; i++) {
+    pow *= a;
+  }
+
+  return pow;
 };
 
 const factorial = function() {
