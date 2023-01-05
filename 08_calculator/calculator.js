@@ -44,7 +44,6 @@ const power = function() {
 
 const factorial = function() {
 	let a = arguments[0];
-  let b = arguments[1];
 
   let sum = a;
   for (let i = 1; i < a; i++) {
