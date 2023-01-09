@@ -12,14 +12,8 @@ const subtract = function() {
   return (a - b);
 };
 
-const sum = function() {
-	let sum = 0;
-
-  for (let i = 0; i < arguments.length; i++) {
-    sum += arguments[i];
-  }
-
-  return sum;
+const sum = function(array) {
+	return array.reduce((total, current) => total + current, 0);
 };
 
 const multiply = function() {
